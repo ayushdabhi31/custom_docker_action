@@ -17,5 +17,6 @@ jobs:
     - name: Post PR Comment
       uses: ./
       with:
-        github-token: ${{ secrets.TOKEN }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         giphy-api-key: ${{ secrets.GIPHY_API_KEY }}
+
